@@ -1,0 +1,220 @@
+.wholePage {
+  margin: 0px;
+  padding: 0px;
+}
+.mainContener {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  width: 95%;
+  margin: 10px auto;
+}
+.divForUpload {
+  box-sizing: border-box;
+  height: 475px;
+  padding: 10px;
+  border: 1px solid var(--colorOfborder);
+  border-radius: 12px;
+}
+.wholeExample {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+.divForImage {
+  box-sizing: border-box;
+  height: 350px;
+  border: 1px dashed var(--colorOfborder);
+  border-radius: 12px;
+}
+.divForHeader {
+  padding: 2px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-width: 0px 1px 1px 0px;
+  border-style: solid;
+  border-color: var(--colorOfborder);
+  border-radius: 0px 0px 12px 0px;
+}
+.divForHeader img {
+  width: 25px;
+  height: 25px;
+}
+.forImageHeaderDiv1 {
+  display: inline-block;
+}
+.forImageHeaderDiv2 {
+  display: inline-block;
+}
+.forImageHeaderDiv3 {
+  display: inline-block;
+}
+.forTextHeaderDiv {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: var(--colorOftext);
+}
+.forTextInputImage {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 83%;
+  color: var(--colorOftext);
+}
+.button {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 25px;
+}
+.buttonClear {
+  box-sizing: border-box;
+  height: 60px;
+  padding: 1px;
+  border: 1px dashed var(--colorOfborder);
+  background-color: transparent;
+  border-radius: 12px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--colorOftext);
+}
+.buttonSubmit {
+  box-sizing: border-box;
+  height: 60px;
+  padding: 1px;
+  border: 1px dashed var(--colorOfborder);
+  background-color: transparent;
+  border-radius: 12px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--colorOftext);
+}
+.Select {
+  box-sizing: border-box;
+  height: 45px;
+  width: 30%;
+  border: 1px solid var(--colorOfborder);
+  border-radius: 12px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80%;
+  line-height: 22px;
+  color: var(--colorOftext);
+  background-color: transparent;
+  cursor: pointer;
+}
+select:focus {
+  outline: none;
+  border: 1px solid var(--colorOfborder);
+  box-shadow: none;
+}
+.divForExaple {
+  box-sizing: border-box;
+  height: 400px;
+  border: 1px solid var(--colorOfborder);
+  border-radius: 12px;
+}
+.divForOutput {
+  box-sizing: border-box;
+  width: 70%;
+  height: 200px;
+  margin: 20px auto;
+  border: 1px solid var(--colorOfborder);
+  border-radius: 12px;
+}
+input[type="file"] {
+  display: none;
+}
+.divDisplayImage {
+  box-sizing: border-box;
+  height: 350px;
+  border: 1px dashed var(--colorOfborder);
+  border-radius: 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.divForOutput .divForHeader {
+  width: 65px;
+}
+.divForImage .divForHeader {
+  width: 50px;
+}
+.divForExaple .divForHeader {
+  width: 70px;
+}
+.forTextSelect {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80%;
+  line-height: 22px;
+  color: var(--colorOftext);
+}
+.divforImageExample {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin: 10px auto;
+  width: 90%;
+  height: 90%;
+}
+.divforImageExample img {
+  margin: auto;
+  width: 80%;
+  height: 90%;
+}
+.divforTextExample {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 83%;
+  color: var(--colorOftext);
+}
+.divForResult {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 83%;
+  color: var(--colorOftext);
+}
+@media (max-width: 480px) {
+  .mainContener {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    width: 90%;
+    margin: 5px auto;
+  }
+}
