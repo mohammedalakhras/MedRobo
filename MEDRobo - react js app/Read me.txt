@@ -1,6 +1,0 @@
-To implement the React application, the following steps must be followed
--Create a new React project
--Open the terminal in project and do the following :
-npm install react-i18next i18next --save
-npm install @emailjs/browser --save
--Copy the files inside the MEDRobo - react js app file and put them in the new project path
