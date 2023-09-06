@@ -1,0 +1,144 @@
+.wholePage {
+  margin: 0px;
+  padding: 0px;
+  color: var(--colorOftext);
+}
+.mainContener {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  width: 80%;
+  margin: auto;
+}
+.divForExplan {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-content: center;
+  margin: auto;
+  width: 70%;
+  align-content: center;
+}
+.divForForm {
+  display: grid;
+  height: 540px;
+  margin: 10px auto;
+  width: 70%;
+  border: 1px solid var(--colorOfborder);
+  border-radius: 12px;
+}
+.wholeForm {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  width: 95%;
+  margin: 15px auto;
+}
+.forTitle1 {
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  color: var(--colorOftext);
+  text-align: center;
+}
+.forTitle2 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--colorOftext);
+  text-align: center;
+}
+.forTitle3 {
+  margin-bottom: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: var(--colorOftext);
+}
+.titleForForm {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: var(--colorOftext);
+}
+.divForcontent {
+  margin: 5px auto;
+  width: 100%;
+}
+.wholeForm input {
+  width: 98%;
+  margin: auto;
+  border: 1px solid var(--colorOfborder);
+  height: 30px;
+  background-color: transparent;
+  border-radius: 8px;
+  color: var(--colorOftext);
+  font-size: 16px;
+}
+.wholeForm label {
+  width: 95%;
+  margin: auto;
+}
+.wholeForm textarea {
+  width: 98%;
+  margin: auto;
+  border: 1px solid var(--colorOfborder);
+  height: 100px;
+  background-color: transparent;
+  border-radius: 8px;
+  color: var(--colorOftext);
+  font-size: 16px;
+}
+.wholeForm button {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  background-color: var(--colorOfborder);
+  color: white;
+  height: 30px;
+  padding: 0px;
+  border: 0px;
+  border-radius: 8px;
+}
+.wholeForm button:active {
+  box-shadow: 5px 5px 5px var(--colorOfborder);
+}
+
+.imageForContact {
+  padding-left: 30%;
+  width: 268px;
+  height: 156px;
+}
+
+@media (max-width: 800px) {
+  .mainContener {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    width: 90%;
+    margin: 5px auto;
+  }
+  .divForExplan img {
+    padding-left: 30%;
+    width: 40vw;
+    height: initial;
+  }
+}

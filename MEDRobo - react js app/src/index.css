@@ -1,0 +1,87 @@
+:root body {
+  background-image: url("./Assets/Light/Background_Light.webp");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dark:root body {
+  background-image: url("./Assets/Dark/Background_Dark.webp");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+:root {
+  --colorOftext: #1e5fac;
+  --colorOfborder: #2c398b;
+  --filter: grayscale(0);
+  --coloOfmenu: aliceblue;
+}
+.dark:root {
+  --colorOftext: #555555;
+  --colorOfborder: #3f3f3f;
+  --filter: grayscale(1);
+}
+:root .Navbar_navbarLogo__Nc3qY img {
+  content: url("./Assets/Light/Logo_Light.webp");
+}
+.dark:root .Navbar_navbarLogo__Nc3qY img {
+  content: url("./Assets/Dark/Logo_Dark.webp");
+}
+:root .Navbar_modeicon__I-h2H {
+  content: url("./Assets/Light/Mode_Light.webp");
+}
+.dark:root .Navbar_modeicon__I-h2H {
+  content: url("./Assets/Dark/Mode_Dark.webp");
+}
+:root .Navbar_menuitem1__WLnuW {
+  content: url("./Assets/Light/Home_Light.webp");
+}
+.dark:root .Navbar_menuitem1__WLnuW {
+  content: url("./Assets/Dark/Home_Dark.webp");
+}
+:root .Navbar_menuitem2__1qWZL {
+  content: url("./Assets/Light/About_Us_Light.webp");
+}
+.dark:root .Navbar_menuitem2__1qWZL {
+  content: url("./Assets/Dark/About_Us_Dark.webp");
+}
+:root .Navbar_menuitem3__L2wUQ {
+  content: url("./Assets/Light/Contact_Us_Light.webp");
+}
+.dark:root .Navbar_menuitem3__L2wUQ {
+  content: url("./Assets/Dark/Contact_Us_Dark.webp");
+}
+:root .Navbar_modeitem__HLwuc {
+  content: url("./Assets/Light/Mode_Menu_Light.webp");
+}
+.dark:root .Navbar_modeitem__HLwuc {
+  content: url("./Assets/Dark/Mode_Menu_Dark.webp");
+}
+:root .Navbar_menuitem4__jXHwE {
+  content: url("./Assets/Light/Language_Light.webp");
+}
+.dark:root .Navbar_menuitem4__jXHwE {
+  content: url("./Assets/Dark/Language_Dark.webp");
+}
+:root .Home_forImageHeaderDiv1__i6\+Z5 {
+  content: url("./Assets/Light/Inpout_Light.webp");
+}
+.dark:root .Home_forImageHeaderDiv1__i6\+Z5 {
+  content: url("./Assets/Dark/Inpout_Dark.webp");
+}
+:root .Home_forImageHeaderDiv2__C64PX {
+  content: url("./Assets/Light/Example_Light.webp");
+}
+.dark:root .Home_forImageHeaderDiv2__C64PX {
+  content: url("./Assets/Dark/Example_Dark.webp");
+}
+:root .Home_forImageHeaderDiv3__evjb\+ {
+  content: url("./Assets/Light/Output_Light.webp");
+}
+.dark:root .Home_forImageHeaderDiv3__evjb\+ {
+  content: url("./Assets/Dark/Output_Dark.webp");
+}
+:root .ContactUs_imageForContact__5Ylhk {
+  content: url("./Assets/Light/Conact_Us_Page_Light.webp");
+}
+.dark:root .ContactUs_imageForContact__5Ylhk {
+  content: url("./Assets/Dark/Conact_Us_Page_Dark.webp");
+}
